@@ -1,0 +1,264 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 10%;
+    background-image: url(image/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: #f2eeee;
+    text-align: center;
+    text-shadow: 0px 0px 20px black;
+    font-size: 70px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    color: crimson;
+    font-size: xx-large;
+}
+div.galerie-dimages{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+div.galerie-dimages img{
+width: 30%;
+}
+p{
+font-size: larger;
+padding: 20px ;
+color: darkslategrey;
+font-style: oblique;
+}
+div.endroit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div.endroit img{
+    width: 50%;
+}
+div.endroit p{
+    padding: 5%;
+}
+div.reverse{
+    flex-direction: row-reverse;
+}
+nav a{
+    
+    margin: 10px 20px;
+    color: rgb(70, 163, 57);
+    text-decoration: none;
+    font-size:larger;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content:space-between;
+}
+nav a:hover{
+    background-color:#ffffff
+}
+
+button{
+    background-color: rgb(18, 181, 18);
+    border: 5px rgb(17, 159, 48) solid; 
+    padding: 3px;
+    margin: 30px auto;
+    display: block;
+    width: 250px;
+
+}
+button a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+}
+.contact{
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+}
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+.contact p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #666;
+    text-align: center; 
+}
+
+.contact form {
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px;
+}
+.contact input, .contact textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+ .contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+ .contact button:hover {
+    background-color: #45a049;
+ }
+h3{
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.social-media {
+    background-color: #f0f0f0;
+    padding: 60px 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 70px auto;
+    max-width: 1000px;
+}
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #4caf50;
+    font-size: 1.2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gastronomie{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:20px;
+}
+.pâte{
+    text-align: center;
+}
+
+.pâte img {
+    max-width: 500px; 
+    display: block;
+    margin: 20 auto;
+}
+
+.pâte p {
+    margin-top: 20px;
+    padding: 40px;
+}
+.pizza{
+    text-align: center;
+}
+.pizza img {
+    max-width: 500px; 
+    display: block;
+    margin: 20 auto;
+}
+.pizza p {
+    margin-top: 20px;
+}
+.gastronomie2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+}
+.bruschetta{
+    text-align: center;
+}
+
+.bruschetta img {
+    max-width: 500px; 
+    display: block;
+    margin: 20 auto;
+}
+
+.bruschetta p {
+    margin-top: 20px;
+}
+.caprese{
+    text-align: center;
+}
+.caprese img {
+    max-width: 500px; 
+    display: block;
+    margin: 40px auto;
+}
+.caprese p {
+    margin-top: 20px;
+}
+.Charcuterie.et.fromage{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+}
+.Charcuterie{
+text-align: center;
+}
+.Charcuterie img{
+    max-width: 500px; 
+    display: block;
+    margin: 20 auto;
+}
+.Charcuterie p{
+    margin-top: 20px;
+}
+.fromages{
+    text-align: center;
+}
+.fromages img{
+    max-width: 500px; 
+    display: block;
+    margin: 20 auto;
+}
+.fromages p{
+margin-top: 20px;
+}
+.desserts{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+}
+.tiramisu{
+    text-align: center;
+}
+.desserts img{
+    max-width: 500px; 
+    display: block;
+    margin: 20 auto;
+}
+.tiramisu p{
+    margin-top: 20px;
+}
